@@ -40,8 +40,7 @@ oops_practice_questions/
 
 
 
-    # Run the compiled code (note the package notation)
-    java basics.task1
+  
     ```
 
 ---
