@@ -93,7 +93,7 @@ class FeetToMeters extends Convert{
 public class task6 {
     static void main(String[] args) {
         System.out.println("Converting feet to meters : ");
-        FeetToMeters conversion1 = new FeetToMeters(10);
+        Convert conversion1 = new FeetToMeters(10);
         System.out.println(conversion1.toString());
         System.out.println();
         System.out.println();
