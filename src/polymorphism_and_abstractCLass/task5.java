@@ -13,6 +13,13 @@ package polymorphism_and_abstractCLass;
 abstract class Person{
     protected String name;
 
+    public Person(String name) {
+        this.name = name;
+    }
+    public Person() {
+        this.name = "agha";
+    }
+
     public String getName() {
         return name;
     }
@@ -28,11 +35,11 @@ class Student extends Person{
 
     public Student(double CGPA,String name) {
         this.CGPA = CGPA;
-        this.name=name;
+        super(name);
     }
     public Student() {
         this.CGPA = 3.7;
-        this.name="areeb";
+        super();
     }
 
     public double getCGPA() {
@@ -62,7 +69,7 @@ class Professor extends Person{
 
     public Professor(int numberOfPublications,String name) {
         this.numberOfPublications = numberOfPublications;
-        this.name=name;
+        super(name);
     }
     public Professor() {
         this.numberOfPublications = 44;

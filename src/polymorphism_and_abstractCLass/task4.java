@@ -258,7 +258,7 @@ class OvernightPackage extends Package{
     public String toString() {
         return "OvernightPackage : \n" +
                 super.toString() +
-                "\nadditionalFeeForOvernightPackage=" + additionalFeeForOvernightPackage + "\nTotal Cost : " + this.additionalFeeForOvernightPackage;
+                "\nadditionalFeeForOvernightPackage=" + additionalFeeForOvernightPackage + "\nTotal Cost : " + this.calculateCost();
     }
 }
 public class task4{

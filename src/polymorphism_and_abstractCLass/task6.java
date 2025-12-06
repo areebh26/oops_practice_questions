@@ -98,12 +98,12 @@ public class task6 {
         System.out.println();
         System.out.println();
         System.out.println("Converting fehrenheit to celcius : ");
-        FahrenheittoCelcius conversion2 = new FahrenheittoCelcius(77);
+        Convert conversion2 = new FahrenheittoCelcius(77);
         System.out.println(conversion2.toString());
         System.out.println();
         System.out.println();
         System.out.println("Converting litres to gallon : ");
-        LitretoGallom conversion3 = new LitretoGallom(10);
+        Convert conversion3 = new LitretoGallom(10);
         System.out.println(conversion3.toString());
 
     }
